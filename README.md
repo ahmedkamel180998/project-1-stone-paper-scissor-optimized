@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Game in C++
+# Rock, Paper, Scissors Game in C++ [Procedural Programming]
 
 This project is a console application of the classic **Rock, Paper, Scissors** game written in C++. It allows the player to compete against the computer in multiple rounds. The game is simple, intuitive, and displays detailed round-by-round results and final game outcomes.
 
@@ -22,9 +22,9 @@ https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
 1. **Player Input**: The player chooses either Stone, Paper, or Scissors.
 2. **Computer Choice**: The computer randomly selects its choice.
 3. **Determine Winner**: The game compares the player and computer’s choices to determine the round’s winner based on the classic rules:
-   - Stone crushes Scissors
-   - Scissors cut Paper
-   - Paper covers Stone
+   - Stone stronger than Scissors
+   - Scissors  stronger than Paper
+   - Paper  stronger than Stone
 4. **Display Results**: The results of each round, including the choices and the winner, are displayed.
 5. **End of Game**: After the designated number of rounds, the game displays the final results, indicating how many rounds each player won, the number of draws, and the overall game winner.
 
