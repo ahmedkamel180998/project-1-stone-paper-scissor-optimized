@@ -3,11 +3,14 @@
 This project is a console application of the classic **Rock, Paper, Scissors** game written in C++. It allows the player to compete against the computer in multiple rounds. The game is simple, intuitive, and displays detailed round-by-round results and final game outcomes.
 
 ## Table of Contents
+- [Live Demo](#Live-Demo)
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Game Flow](#game-flow)
-- [Live Demo](#Live-Demo)
   
+## Live Demo
+https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
+
 ## Features
 - **Multiple Rounds**: Play up to 10 rounds against the computer.
 - **Randomized Computer Choices**: The computer’s choices are randomized each round.
@@ -32,8 +35,5 @@ This project is a console application of the classic **Rock, Paper, Scissors** g
 - The result of each round is shown immediately after.
 - At the end of the game, a summary is displayed with the overall winner.
 - The player is asked if they want to play again.
-
-## Live Demo
-https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
 
 
