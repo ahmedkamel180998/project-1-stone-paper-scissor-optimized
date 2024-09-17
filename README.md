@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
 
 ## How It Works
 1. **Player Input**: The player chooses either Stone, Paper, or Scissors.
-2. **Computer Choice**: The computer randomly selects its move.
+2. **Computer Choice**: The computer randomly selects its choice.
 3. **Determine Winner**: The game compares the player and computer’s choices to determine the round’s winner based on the classic rules:
    - Stone crushes Scissors
    - Scissors cut Paper
