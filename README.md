@@ -1,13 +1,16 @@
 # Rock, Paper, Scissors Game in C++ [Procedural Programming]
-
 This project is a console application of the classic **Rock, Paper, Scissors** game written in C++. It allows the player to compete against the computer in multiple rounds. The game is simple, intuitive, and displays detailed round-by-round results and final game outcomes.
 
 ## Table of Contents
+- [Project Information](#Project-Information)
 - [Live Demo](#Live-Demo)
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Game Flow](#game-flow)
-  
+
+## Project Information
+This math quiz game project was created at the end of the 5th course from the [Roadmap for General Foundation in Programming](https://programmingadvices.com/p/00316b1111) at [Programming Advices](https://programmingadvices.com/).
+
 ## Live Demo
 https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
 
