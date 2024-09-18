@@ -9,7 +9,7 @@ This project is a console application of the classic **Rock, Paper, Scissors** g
 - [Game Flow](#game-flow)
 
 ## Project Information
-This math quiz game project was created at the end of the 5th course from the [Roadmap for General Foundation in Programming](https://programmingadvices.com/p/00316b1111) at [Programming Advices](https://programmingadvices.com/).
+This math quiz game project was created at the end of the [5th course](https://programmingadvices.com/p/00316b1111) from the Roadmap for General Foundation in Programming @ [Programming Advices](https://programmingadvices.com/).
 
 ## Live Demo
 https://github.com/user-attachments/assets/54b76a82-a87a-4d42-99f0-19bbb83e8a29
