@@ -1,23 +1,32 @@
-name: C/C++ CI
+name: C++ Build and Run
 
+# Trigger the workflow on push or pull request events
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
-
+    # Define the type of virtual machine to run on (Ubuntu in this case)
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Install dependencies (like g++)
+      - name: Install g++
+        run: sudo apt-get install g++ -y
+
+      # Step 3: Compile the C++ code
+      - name: Compile C++ Code
+        run: g++ -o stone-paper-scissor project-1-stone-paper-scissor-optimized.cpp
+
+      # Step 4: Run the compiled program
+      - name: Run Program
+        run: ./stone-paper-scissor
